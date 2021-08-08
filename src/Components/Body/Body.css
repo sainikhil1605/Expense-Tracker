@@ -1,0 +1,14 @@
+.inputtag {
+  padding: 5px;
+  border-radius: 3px;
+  width: 20%;
+}
+.submit {
+  background-color: rgb(13, 132, 153);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 15px;
+  width: 20%;
+  margin: 20px;
+}

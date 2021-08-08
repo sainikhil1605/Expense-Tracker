@@ -1,0 +1,75 @@
+.heading {
+  font-weight: 400;
+}
+.greenClass {
+  color: green;
+  font-weight: bolder;
+}
+.redClass {
+  color: red;
+  font-weight: bolder;
+}
+.balance {
+  font-size: large;
+}
+@media only screen and (min-width: 780px) {
+  .balance {
+    align-self: flex-start;
+    padding-left: 50px;
+  }
+}
+.expenseOuterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* margin: 10%; */
+  width: 40%;
+
+  transform: translateX(70%);
+
+  width: 40%;
+}
+.expenseInnerContainer {
+  flex: 1;
+  background-color: #efebeb;
+  border: 2px solid grey;
+  margin: 2px;
+  width: 10px;
+}
+.expenseTable {
+  margin: 2px;
+  background-color: white;
+  align-items: baseline;
+
+  display: flex;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  align-items: center;
+  min-width: 400px;
+}
+.greenTable {
+  border-right: 8px solid green;
+}
+.redTable {
+  border-right: 8px solid red;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.tableOuter {
+  display: flex;
+  /* box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%); */
+  align-items: center;
+  /* width: 200px; */
+  justify-content: center;
+}
+.delete {
+  background-color: rgb(13, 132, 153);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 15px;
+
+  margin: 20px;
+}
